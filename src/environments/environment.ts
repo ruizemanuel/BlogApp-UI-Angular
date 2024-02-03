@@ -1,3 +1,3 @@
 export const environment = {
-    apiBaseUrl: 'https://localhost:7031'
+    apiBaseUrl: 'https://blogappapiemanuelruiz.azurewebsites.net/'
 };
