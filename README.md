@@ -1,27 +1,56 @@
-# Blogapp
+# Angular Blog Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+This project is a blog developed with Angular, utilizing various libraries and tools to provide an advanced blogging experience. Below, you'll find the main features of the project, the tools used, and how to run it.
 
-## Development server
+## Test the App
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Test the app on the live demo: [blogapp-emanuelruiz.netlify.app/](https://blogapp-emanuelruiz.netlify.app/)
 
-## Code scaffolding
+Credentials:
+User: admin@blogapp.com
+Password: Admin@123
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Key Features
 
-## Build
+**User Management:** Implements JWT Token to handle user authentication, enabling secure access to the blog's functionalities.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Session Cookies:** Uses Cookie Service to efficiently and securely manage user sessions.
 
-## Running unit tests
+**Markdown Rendering:** Utilizes ngx-markdown to render content in Markdown format, allowing users to publish content with rich formatting.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Reactive Programming:** Makes extensive use of RxJS for handling events and asynchronous communication, enhancing efficiency and reactivity.
 
-## Running end-to-end tests
+**HTTP Interceptors:** Integrates HTTP_INTERCEPTORS to intercept and modify HTTP requests globally, providing features such as authentication tokens.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Installation
 
-## Further help
+When you clone this repository, make sure to run the following commands to install the necessary dependencies:
+`npm install`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Backend Configuration
+
+The application, by default, is configured to connect to a backend developed in .NET, deployed on Azure. However, you have the option to download and run the backend locally.
+To run the backend locally, download it from [Github](https://github.com/ruizemanuel/BlogApp-API-.NET) and follow the instructions in the backend's README.
+
+## Running the Application
+
+To start the Angular application, use the following command:
+`ng serve`
+
+The application will be available at http://localhost:4200/ by default.
+
+## Libraries Used
+
+**JWT Decode:** jwt-decode - For decoding and managing JWT tokens used in authentication.
+
+**Cookie Service:** ngx-cookie-service - For effective management of session cookies.
+
+**Ngx Markdown:** ngx-markdown - For rendering content in Markdown format.
+
+**RxJS:** rxjs - For reactive programming and efficient event handling.
+
+## Autor
+
+👤 **Ruiz, Jose Emanuel**
+
+* GitHub: [ruizemanuel](https://github.com/ruizemanuel)
