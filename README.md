@@ -7,7 +7,11 @@ This project is a blog developed with Angular, utilizing various libraries and t
 Test the app on the live demo: [blogapp-emanuelruiz.netlify.app](https://blogapp-emanuelruiz.netlify.app/)
 
 Credentials:
+
+
 User: admin@blogapp.com
+
+
 Password: Admin@123
 
 ## Key Features
