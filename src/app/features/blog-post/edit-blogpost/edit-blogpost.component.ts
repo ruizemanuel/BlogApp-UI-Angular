@@ -68,7 +68,7 @@ export class EditBlogpostComponent implements OnInit, OnDestroy{
     if(this.model && this.id){
       var updateBlogPost: updateBlogPost = {
         author: this.model.author,
-        content: this.model.shortDescription,
+        content: this.model.content,
         shortDescription: this.model.shortDescription,
         featuredImageUrl: this.model.featuredImageUrl,
         isVisible: this.model.isVisible,
